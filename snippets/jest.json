@@ -1,0 +1,34 @@
+{
+    "New react test suite": {
+        "prefix": "jest - new test suite",
+        "body": [
+            "import { $function } from '$importPath';",
+            "",
+            "\tdescribe('$function', () => {",
+            "",
+            "\t\tit('should do something', () => {",
+            "\t\t\texpect($function).toEqual('something');",
+            "\t\t});",
+            "\t});"
+        ],
+        "description": "Scaffolds out a new Jest test suite."
+    },
+    "Create a new 'describe' block": {
+        "prefix": "jest - new 'describe' block",
+        "body": [
+            "describe('$1', () => {",
+            "",
+            "})"
+        ],
+        "description": "Creates a new 'describe' block"
+    },
+    "Create a new 'it' block": {
+        "prefix": "jest - new 'it' block",
+        "body": [
+            "it('$1', () => {",
+            "",
+            "})"
+        ],
+        "description": "Creates a new 'it' block"
+    }
+}

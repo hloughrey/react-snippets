@@ -1,0 +1,42 @@
+{
+    "name": "react-snippets",
+    "displayName": "React Snippets",
+    "publisher": "Latitude55",
+    "author": "hugh.loughrey@gmail.com",
+    "description": "A collection of useful snippets for modern react development",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "    https://github.com/hloughrey/react-snippets"
+    },
+    "icon": "react.png",
+    "scripts": {
+        "publish": "npx vsce publish"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/jest.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/jest.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/jest.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/jest.json"
+            }
+        ]
+    }
+}
